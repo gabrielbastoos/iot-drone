@@ -73,10 +73,7 @@ try {
 
         if (commandName === "Tweet") {
             console.log("Tweet command received");
-            var json = JSON.parse(payload);
-
-            console.log(json.d);
-            tweetPic(json.d);
+            tweetPic(payload.toString());
         } else if (commandName === "TakeOff") {
             console.log("Take OFF!!!");
             drone.takeoff();
