@@ -60,7 +60,7 @@ try {
                 var time = Math.floor(new Date());
                 droneDB.insert({created: time, payload: lastPng}, time.toString(), function (err, body) {
                     if (!err)
-                        console.log(body)
+                        //console.log(body)
                 });
             }
         }, 2000);
