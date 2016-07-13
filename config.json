@@ -1,0 +1,20 @@
+{ "iotconfig" : {
+    "org" : "xxxxx",
+    "id" : "drone1",
+    "type" : "drone",
+    "auth-method" : "token",
+    "auth-token" : "xxxxxxxxxxx"
+ },
+
+"twitConfig" : {
+  "consumer_key": "<GENERATE FROM APPS.TWITTER.COM>",
+  "consumer_secret": "<GENERATE FROM APPS.TWITTER.COM>",
+  "access_token_key": "<GENERATE FROM APPS.TWITTER.COM>",
+  "access_token_secret": "<GENERATE FROM APPS.TWITTER.COM>"
+ },
+ "cloudantConfig" : {
+  "user" : "xxxxxxxxx-bluemix",
+  "password" : "xxxxxxxxxxxx",
+  "dbName" : "drone"
+ }
+}
